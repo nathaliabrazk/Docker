@@ -7,7 +7,7 @@ Separa a aplicação da infraestrutura.
 
 Reduz o atraso entre escrever código e executá-lo em produção.
 
-Tudo isso é realizado através de um contâiner.
+Tudo isso é realizado através de um contêiner.
 
 ## O que é uma aplicação?
 Aplicação é a utilização prática de algo, seja uma teoria, um conceito ou, mais comumente em tecnologia, um programa de software projetado para realizar uma tarefa específica. No contexto de TI, pode ser um programa de computador, um aplicativo de celular ou uma aplicação web que o usuário acessa por meio de um navegador para diversas finalidades, como redes sociais ou realizar compras,
@@ -106,3 +106,7 @@ Máquinas virtuais são sistemas de pilha completa e podem ter construção e re
 **Contêineres** ocupam menos espaço e são mais fáceis de escalar. Mais importante, **contêineres** fornecem controle granular da escalabilidade da aplicação ao permitir o uso de **microsserviços**. 
 
 **Microsserviços** são uma abordagem arquitetônica e organizacional do desenvolvimento de software na qual o software consiste em pequenos serviços independentes que se comunicam usando APIs bem definidas. Contêineres permitem escalar microsserviços individuais se necessário.
+
+### Diferenças entre Docker e Kubernetes
+Docker - execução de aplicações em contêiners de forma isolada em computadores, ambientes de nuvem, data-centers, etc. Criação e execução de contêiners e imagens de contêiners.
+Kubernetes - Gerenciamento de contêiners, orequestrar a escalabilidade
