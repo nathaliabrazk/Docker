@@ -42,3 +42,10 @@ sudo dnf install -y yum-utils
 sudo curl -o /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
 ![Passo 4](images/docker-4.0.png)
+
+
+### Passo 5 - Iniciar o Docker
+```bash
+sudo systemctl enable --now docker
+```
+![Passo 5](images/docker-5.0.png)
